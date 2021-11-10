@@ -3,10 +3,11 @@ body {
 }
 header{
     background-image: url("Photos/Illustration.png");
- background-color: #12f382;
+ background-color: #add4bd;
  height: 30%;
  background-position: center;
  background-repeat: no-repeat;
+ background-size: 30% auto;
 }
 nav {
     width: 100%;
@@ -29,8 +30,12 @@ a {
     color: rgb(0, 102, 0);
     text-decoration: none;
 }
-img {
-    width: 40%;
+
+.icon{
+  width: auto;
+    height: 100px;
+    text-align: center;
+  margin: 20% 0% 0 35%;
 }
 #image {
     width: 24%;
@@ -51,11 +56,16 @@ img {
     display: inline-block;
     font-size: 16px;
   }
-
+.tabs{
+  padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
   .card {
     margin-top: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    margin-right: 100px;
 
   }
 
@@ -74,8 +84,18 @@ img {
   .nav-style{
     padding-bottom: 7%;
     margin-left: 10%;
-    margin-top: 1%;
   }
   .container {
     padding: 2px 16px;
+    text-align: center;
   }
+  .onlinecourse {
+   text-align: center;
+   margin-top: 400px;
+
+  }
+  .icon2{
+    width: auto;
+      height: 100px;
+      text-align: center;
+    margin: 25% 0% 0 35%;
