@@ -1,3 +1,7 @@
+document.getElementById("submit").addEventListener("click", function(event){
+    event.preventDefault()
+  });
+
 function process() {
     var name = document.getElementById('fname').value;
     var age = document.getElementById('age').value;
